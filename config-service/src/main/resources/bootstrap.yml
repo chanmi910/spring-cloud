@@ -1,0 +1,8 @@
+encrypt:
+  #  key: msaconfigservicetest
+  key-store:
+    location: file:/apiEncryptionKey.jks
+#    location: file://${user.home}/app/msa/keystrore/apiEncryptionKey.jks
+#    location: file:///C:\msa\keystrore\apiEncryptionKey.jks
+    password: 1q2w3e4r
+    alias: apiEncryptionKey
